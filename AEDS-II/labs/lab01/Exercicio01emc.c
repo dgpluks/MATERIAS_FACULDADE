@@ -8,9 +8,6 @@ int maiuscula (char *linha, int qnt){
 	}
 	return qn;
 }
-void lerString(){
-
-}
 int main (){
 	int i = 0;
         char linha[50], letra;
