@@ -5,7 +5,7 @@ class atividade01{
 		Scanner entrada = new Scanner(System.in);
 		int que = 1;
 		while( que != 0){
-			System.out.println("ESCOLHA QUAL VOCÊ QUER TESTAR:\n1--1A\n2--1B\n3--1C\n4--1D\n5--2A\nDIGITE (0) PARA FINALIZAR\n\n\nEU FIZ A FUNÇÃO função "+"dec2bin(x)"+" POR CONTA PROPRIA, NÃO UTILIZANDO UMA BIBLIOTECA\n\n\n\n");
+			System.out.println("ESCOLHA QUAL VOCÊ QUER TESTAR:\n1--questão 1\n2--questão 2\n3--questão 3\n4--questão 4\n5--questão 5\n6--escolha os valores\nDIGITE (0) PARA FINALIZAR\n\n\nEU FIZ A FUNÇÃO função "+"dec2bin(x)"+" POR CONTA PROPRIA, NÃO UTILIZANDO UMA BIBLIOTECA\n\n\n\n");
 			que = entrada.nextInt();
 			if(que != 0){
 				switch(que){
